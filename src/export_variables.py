@@ -2,8 +2,7 @@ import os
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 def export_envs():
-    
-    '''export environment variable'''
+    '''it export environment variable'''
     file = open(basedir + '/env.txt')
     for line in file:
         line_data = line.rstrip('\n')
